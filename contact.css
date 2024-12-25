@@ -1,0 +1,163 @@
+/* Styling Umum */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    height: 50px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin: 0 20px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+}
+
+.navbar nav ul li a:hover {
+    color: #000;
+}
+
+/* Ikon Home */
+.home-icon {
+    font-size: 1.8em;
+    color: #333;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.home-icon:hover {
+    color: #000;
+}
+
+/* Search dan Cart */
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.search-form button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.cart {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cart:hover {
+    background-color: #333;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 80px 50px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+    max-width: 900px;
+    border-radius: 15px;
+}
+
+.contact-section .container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contact-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Formulir Kontak */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contact-form label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+.contact-form .submit-btn {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.contact-form .submit-btn:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
